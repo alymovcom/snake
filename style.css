@@ -18,11 +18,13 @@ body {
 }
 #play:hover {
     box-shadow: 0 0 20px #333;
+    cursor: none;
 }
 #play:active {
     box-shadow: 0 0 20px #333;
     color: #333;
     background: none;
+    cursor: none;
 }
 #canvas {
     border-radius: 10px;
