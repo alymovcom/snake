@@ -14,17 +14,15 @@ body {
     right: 20px;
     transition: .2s;
     text-decoration: none;
-    cursor: none;
+    cursor: none
 }
 #play:hover {
     box-shadow: 0 0 20px #333;
-    cursor: none;
 }
 #play:active {
     box-shadow: 0 0 20px #333;
     color: #333;
     background: none;
-    cursor: none;
 }
 #canvas {
     border-radius: 10px;
