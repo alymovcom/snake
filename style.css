@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(90deg, #fdfd87, #ff8d8d);
+}
+#play {
+    background: #555;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: arial;
+    font-size: 40px;
+    padding: 5px 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition: .2s;
+    text-decoration: none;
+}
+#play:hover {
+    box-shadow: 0 0 20px #333;
+}
+#play:active {
+    box-shadow: 0 0 20px #333;
+    color: #333;
+    background: none;
+}
+#canvas {
+    border-radius: 10px;
+    border: 5px solid #333;
+    margin: 200px auto;
+    display: block;
+    background: #333;
+    cursor: none
+}
