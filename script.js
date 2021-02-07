@@ -36,7 +36,7 @@ jQuery("body").keydown(function(e){
 function pr(head, tail){
     for(let i = 0; i < tail.length; i++) {
         if (head.x == tail[i].x && head.y == tail[i].y && go != "") {
-            document.location.href = "score-GO.html"
+            document.location.href = "game-GO.html"
         }
     }
 }
@@ -83,7 +83,7 @@ function draw(){
             y: Math.floor(Math.random() * maxBox)
         }
         if (bal === 100) {
-            setTimeout(function(){document.location.href = "score-GC.html"}, 200)
+            setTimeout(function(){document.location.href = "game-GC.html"}, 200)
         }
     }else{
         snake.pop()
