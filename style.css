@@ -1,7 +1,6 @@
 body {
     background: linear-gradient(90deg, #fdfd87, #ff8d8d);
     text-align: center;
-    overflow: hidden;
 }
 #play {
     background: #555;
